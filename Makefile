@@ -2,7 +2,7 @@ install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
 
-test:
+test: install
 	python -m pytest -vv --cov=src.stat1 test/*.py
 
 format:	
