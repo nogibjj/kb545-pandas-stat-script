@@ -2,11 +2,10 @@ install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
 
-test: install
-	python -m pytest -vv --cov=main --cov=src test/test_*.py
+test:
+	python -m pytest -vv --cov=src.stat1 test/*.py
 
-format:
-	#Uncomment once a python file is present, and ready to be formatted correctly. No python files now is causing an error	
+format:	
 	black src/*.py 
 
 lint: 
