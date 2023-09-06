@@ -4,8 +4,7 @@ install:
 
 test:
 	#Whenever testing needs to occur, either have a test file in the format below, or change test_*.py to the respective filename
-	#python -m pytest -vv --cov=src test/test_*.py
-	pytest test
+	python -m pytest -vv --cov=src test/swag*.py
 
 format:
 	#Uncomment once a python file is present, and ready to be formatted correctly. No python files now is causing an error	
