@@ -3,12 +3,12 @@ install:
 		pip install -r requirements.txt
 
 test: install
-	python -m pytest -vv --cov=src.stat1 test/*.py
+	python -m pytest -vv --cov=src.stat1 test_*.py
 
-format:	
+format:	test
 	black src/*.py 
 
-lint: 
+lint: format
 	#Whenever a lint check needs to occur, either have a mylib folder, or change mylib to the respective folder name
 	#pylint --disable=R,C --ignore-patterns=test_.*?py *.py mylib/*.py
 
