@@ -10,7 +10,7 @@ format:	test
 
 lint: format
 	#Whenever a lint check needs to occur, either have a mylib folder, or change mylib to the respective folder name
-	#pylint --disable=R,C --ignore-patterns=test_.*?py *.py mylib/*.py
+	pylint --disable=R,C --ignore-patterns=test_.*?py *.py src/*.py
 
 refactor: format lint
 
