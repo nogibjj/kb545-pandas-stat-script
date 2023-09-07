@@ -5,7 +5,7 @@ This is a POC of the Python Template, showing that creating a statistic script i
 
 Tasks Completed Include:
 
-* 'Adding the proper pandas version to the requirements.txt file, specifically pandas version 2.1.0'
-* 'Added a src folder that held the created script function, which reads the iris.csv (found at https://gist.github.com/netj/8836201), and finds the minimum value of sepal_length'
-* 'Added a test function called test_stat.py, which runs an assert on the function to gauge if it properly works'
-* 'Edited MakeFile to properly install everything, test the code, format everything proerply, and run a linter 
+* Adding the proper pandas version to the requirements.txt file, specifically pandas version 2.1.0
+* Added a src folder that held the created script function, which reads the iris.csv (found at https://gist.github.com/netj/8836201), and finds the minimum value of sepal_length
+* Added a test function called test_stat.py, which runs an assert on the function to gauge if it properly works
+* Edited MakeFile to properly install everything, test the code, format everything proerply, and run a linter
