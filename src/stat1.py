@@ -22,6 +22,3 @@ def makeGraph():
     )
 
     plt.savefig("answer.png")
-
-
-makeGraph()
