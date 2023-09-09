@@ -3,7 +3,7 @@ install:
 		pip install -r requirements.txt
 
 test: install
-	python -m pytest -vv --cov=src.stat1 test_*.py
+	python -m pytest -vv --cov=src test_*.py
 
 format:	test
 	black src/*.py 
